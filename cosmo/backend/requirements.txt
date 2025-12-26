@@ -1,0 +1,19 @@
+# Core Django
+Django==5.0.1
+djangorestframework==3.14.0
+
+# Database
+psycopg2-binary==2.9.9          # PostgreSQL adapter
+
+# Authentication & Security
+djangorestframework-simplejwt==5.3.1  # JWT tokens for API auth
+django-cors-headers==4.3.1      # Allow React to call Django API
+
+# Environment variables
+python-decouple==3.8            # Load .env file securely
+
+# Image handling
+Pillow==10.2.0                  # For product images
+
+# Development tools (optional but helpful)
+django-extensions==3.2.3        # shell_plus and other utilities
